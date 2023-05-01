@@ -3,10 +3,14 @@ package test;
 import domain.Exercise;
 
 public class TestResult {
-
     public static void main(String[] args) {
+        int number = 153;
+        boolean result = Exercise.isArmstrong(number);
 
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        if (result) {
+            System.out.println(number + " is an Armstrong number");
+        } else {
+            System.out.println(number + " is not an Armstrong number");
+        }
     }
 }
