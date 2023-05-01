@@ -13,7 +13,7 @@
 
 1. Код класу **"Exercise"** -
 
-```
+```java
 package domain;
 
 public class Exercise {
@@ -35,7 +35,7 @@ public class Exercise {
 
 2. Код класу **"TestResult"** -
 
-```
+```java
 package test;
 
 import domain.Exercise;
